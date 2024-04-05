@@ -31,8 +31,8 @@ button {
 }
 
 .width {
-   width: 800px;
-   margin: 2em auto;
+  width: 800px;
+  margin: 2em auto;
 }
 
 .header-container,
@@ -70,4 +70,276 @@ footer {
 
 .outlet-container {
   min-height: 77.7vh;
+}
+
+.home-page {
+  background-image: url("./assets/home.jpg");
+  min-height: 77.7vh;
+  display: flex;
+  margin: auto;
+}
+
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: auto;
+  padding: 2em;
+  background-color: white;
+  width: 800px;
+  border-radius: 5px;
+}
+
+.home-page-container h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 42px;
+  text-align: left;
+  color: black;
+}
+
+.home-page-container h2 {
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+
+}
+
+.home-page-container a {
+  font-family: Inter;
+  font-size: 15.95px;
+  font-weight: 700;
+  line-height: 31.66px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FF8C38;
+  padding: 0.5em 0;
+  border-radius: 3px;
+}
+
+.about-page {
+  min-height: 77.7vh;
+  display: flex;
+  margin: auto;
+}
+
+.about-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin: auto;
+  padding: 2em;
+}
+
+.about-page-container h1 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+  color: #161616;
+}
+
+.about-page-container h4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  color: #161616;
+}
+
+.about-page-container .cta {
+  background: #FFCC8D;
+  padding: 2em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.about-page-container .cta h2 {
+  color: #161616;
+}
+
+.cta a {
+  font-family: Inter;
+  font-size: 15.95px;
+  font-weight: 700;
+  line-height: 23.92px;
+  text-align: left;
+  background-color: #161616;
+  color: #FFFFFF;
+  width: 30%;
+  text-align: center;
+  padding: 0.6em 0;
+  border-radius: 3px;
+}
+
+.login-page {
+  min-height: 77.7vh;
+  display: flex;
+  /* margin: auto; */
+}
+
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-page-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page-container h1 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #161616;
+}
+
+.login-page-container form input {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 0.5em;
+  outline: unset;
+}
+
+form #email {
+  border-radius: 6px 6px 0 0;
+  border-bottom: none;
+}
+
+form #password {
+  border-radius: 0px 0px 6px 6px;
+}
+
+.login-page-container button {
+  font-family: Inter;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  background: #FF8C38;
+  border: unset;
+  padding: 0.5em;
+  border-radius: 6px;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.login-page form span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #161616;
+}
+
+
+.login-page form a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #FF8C38;
+}
+
+.properties-page {}
+
+.properties-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.properties-page-container h1 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 33.65px;
+  text-align: left;
+  color: #161616;
+}
+
+.properties-page-container nav button {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23.92px;
+  text-align: center;
+  color: #4D4D4D;
+  background: #FFEAD0;
+  padding: 0.5em;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 4em;
+}
+
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+
+.property-component {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.property-component img {
+  border-radius: 5px;
+}
+
+.property-component .property-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.property-component h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31.66px;
+  text-align: left;
+  color: #161616;
+}
+
+.property-component h4 {
+  font-family: Avenir Next;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 31.66px;
+  text-align: right;
+  color: #161616;
+}
+
+.property-component span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 31.66px;
+  text-align: center;
+  width: 50%;
+  color: #FFEAD0;
+  background-color: #115E59;
+  border-radius: 5px;
+  padding: 5px;
 }
